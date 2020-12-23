@@ -22,10 +22,10 @@ public class Ejemplo03 {
         System.out.printf("Uso de la opción length: %d\n", arreglo1.length);
         
         for (int fila = 0; fila < arreglo1.length; fila++) {
-            arregloUnidimensional = arreglo1[0];
+            arregloUnidimensional = arreglo1[fila];// como obtener el tamaño del arreglo unidimencional en funcion de columnas.
             System.out.printf("Tamaño del arreglo de cada fila (por el número "
-                    + "de columnas) %d\n", 
-                    arregloUnidimensional.length);
+                    + "de columnas) %d - posicion de la fila: %d\n", 
+                    arregloUnidimensional.length,fila);
         }
     }
     

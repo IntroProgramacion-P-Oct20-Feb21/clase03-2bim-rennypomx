@@ -19,14 +19,16 @@ public class Ejemplo04 {
         
         // forma 1
         int[][] arreglo1 = {{10, 20, 40}, {1, 2, 3}};
-        int suma = 0;
+        int suma;
         
         for (int fila = 0; fila < arreglo1.length; fila++) {
+           suma = 0;
             for (int col = 0; col < arreglo1[fila].length; col++) {
                 suma = suma + arreglo1[fila][col];
             }
+            System.out.printf("Suma de valores del arreglo: %d\n", suma);
         }
-        System.out.printf("Suma de valores del arreglo: %d\n", suma);
+        //System.out.printf("Suma de valores del arreglo: %d\n", suma);
     }
     
 }
